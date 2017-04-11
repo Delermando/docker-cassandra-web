@@ -8,5 +8,5 @@ This project in only the  [cassandra web](https://www.google.com) application co
   -e CASSANDRA_USERNAME=cassandra \  
   -e CASSANDRA_PASSOWRD=cassandra \ 
   -p 3000:3000 \  
-  cassandra-web 
+  delermando/docker-cassandra-web:v0.4.0
  
