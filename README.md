@@ -6,7 +6,7 @@ This project in only the  [cassandra web](https://www.google.com) application co
   -e CASSANDRA_HOST_IP=192.168.200.3 \   
   -e CASSANDRA_PORT=9042 \  
   -e CASSANDRA_USERNAME=cassandra \  
-  -e CASSANDRA_PASSOWRD=cassandra \ 
+  -e CASSANDRA_PASSOWRD=cassandra \  
   -p 3000:3000 \  
   delermando/docker-cassandra-web:v0.4.0
  
