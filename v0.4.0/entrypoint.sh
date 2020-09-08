@@ -5,7 +5,7 @@ set -eu
 if [[ ! -v CASSANDRA_HOST_IP ]]; then
   CASSANDRA_HOST_IP="127.0.0.1"
 else
-  HOST_IP="${CASSANDRA_HOST_IP}"
+  CASSANDRA_HOST_IP="${CASSANDRA_HOST_IP}"
 fi
 
 #PORT
